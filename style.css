@@ -1,0 +1,162 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-1 {
+    text-transform: uppercase;
+
+
+}
+
+.btn-2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+    padding: 7px 5px;
+    font-size: 24px;
+}
+
+.btn:hover {
+    background-color: silver;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 0% 0%;
+
+}
+
+.image-1 {
+    width: 50%;
+}
+
+.img-1 {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: #f1f1f1;
+}
+
+.head-1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.boy-img>img {
+    width: 20%;
+}
+
+.boy-img,
+.head-1 {
+    display: flex;
+    justify-content: center;
+    padding: 49px 0px 0px 10px;
+}
+.boy-img{
+    padding-bottom:20px ;
+}
+
+.head-2 {
+    text-align: center;
+    color: #E91E63;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+.para>p {
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    line-height: 1.5; 
+    font-size: 14px;
+}
+
+.forms>form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    padding: 50px;
+    
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 8px 8px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    border: silver 1px solid;
+}
+
+label {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-btn {
+    background-color: #757575;
+    color: #fff;
+}
+
+.form-btn:hover {
+    background-color: silver;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    color: #757575;
+    font-size: 15px;
+    padding-bottom: 60px;
+    top: 20px;
+}
+
+footer a {
+    color: #757575;
+}
