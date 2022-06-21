@@ -12,6 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* .main-container {
+    width: 980px;
+    max-width: 100%;
+    margin: auto;
+} */
 
 header {
     padding: 28px;
@@ -176,7 +181,17 @@ label {
     color: #757575;
 }
 
+
 /* media query */
+@media only screen and (max-width: 2300px) {
+
+.main-container{
+    width: 1250PX;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+}
 @media only screen and (max-width: 600px) {
     .images {
         display: flex;
